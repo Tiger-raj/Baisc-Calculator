@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  *:focus {
+    outline: none;
+}
+/* Or you can also use 
+   button:focus {
+    outline: none;
+}
+   to remove focus from specific elements.
+*/
+  body{
+    background-color: #FFF8DC;
+  }
+    header {
+      background-color: #aaafb5;
+      border-bottom: solid 2px black;
+      margin-bottom: 10px;
+      height: 10vh;
+    }
+       #name{
+         text-align: center;
+         font-size: 45px;
+         color: yellow;
+         padding-top: 7px;
+         
+       text-shadow: 5px 4px 6px black;
+       }
+   
+   #main{
+     border: solid 2px black;
+     margin: 10px;
+    /* padding: 30px 30px 30px 30px;*/
+     height: 70vh;
+     background-color: #FFDAB9 ;
+   }
+      #calculator{
+        border: solid 2px black;
+        width: 175px;
+        position: relative;
+       
+       border-radius: 9px;
+        padding: 2px ;
+        background-color: #6f756c;
+       
+       display: block;
+        margin: 30px auto ;
+        box-shadow: 5.5px 5.5px 6px black ;
+      }
+      .button{
+        margin: 5px ;
+        font-size: 18px;
+        width: 30px;
+        height: 30px;
+        border: none;
+        border-radius: 9px;
+       border: solid 2.5px;
+        border-color:  white black black white;
+      }
+      .button:hover{
+       
+        
+         border-color:  black white white black ;
+      }
+      .crossButton{
+        width : 73.5px;
+      }
+      
+      .equalButton{
+       
+      position: absolute;
+      bottom: 42px;
+      left: 134.5px;
+      
+        height: 70px;
+        
+      }
+      #blank{
+        width: 158px;
+        margin: 5px;
+        border: 2px solid black;
+        text-align: center;
+        height: 4vh;
+        border-radius: 10px;
+        font-size: 16px;
+      }
+      footer{
+        border: solid black 2px;
+        padding: 5px;
+        margin: 10px;
+        background-color: #E0FFFF;
+        text-align: center;
+      }
+      #constants{
+      /*  border: solid 2px red;*/
+        padding: 10px ;
+        display: inline-block;
+        margin: 0 0 0 10px;
+      }
+      #link{
+     /*   border: solid 2px red;*/
+        margin: 0 0 30px 10px;
+        
+      }
+      #constBox{
+       display: none;
+      border: solid 2px black;
+      
+     margin: 10px 10px 10px 10px;
+      padding: 3px;
+      border-radius: 8px;
+      background-color: #6f756c;
+      }

@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="UTF-8">
+  <meta name="description" content="A Basic Calculator By Tiger">
+  <meta name="keywords" content="Calculator, Calculator for square ">
+  <meta name="author" content="Mr. Tiger">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator by Tiger</title>
+  <link rel="stylesheet" href="Calculator.css">
+  
+   
+ <script src="New.js"></script>
+    </head>
+    <body>
+     <header>
+      
+      <h2 id="name"> Calculator 🧮 </h2>
+      </header>
+      <main id="main" >
+        <div id="calculator">
+        <input type="text" placeholder="Type your expression" id="blank" readonly>
+        <br>
+        <button class="button" onclick="but(1)">1</button>
+        <button class="button" onclick="but(2)">2</button>
+        <button class="button" onclick="but(3)">3</button>
+        <button class="button" onclick="but('+')">+</button>
+        <br>
+        <button class="button" onclick="but(4)">4</button>
+        <button class="button" onclick="but(5)">5</button>
+        <button class="button" onclick="but(6)">6</button>
+        <button class="button" onclick="but('-')">-</button>
+        <br>
+        <button class="button" onclick="but(7)">7</button>
+        <button class="button" onclick="but(8)">8</button>
+        <button class="button" onclick="but(9)">9</button>
+        <button class="button" onclick="but('*')">*</button>
+        <br>
+        <button class="button" onclick="but('.')">.</button>
+        <button class="button" onclick="but('0')">0</button>
+        <button class="button" onclick="but('/')">/</button>
+        <br>
+        <button class="button" onclick="but('(')">(</button>
+        <button class="button" onclick="but(')')">)</button>
+        <button class="button" onclick="but('**')">^</button>
+        <button class="button equalButton" onclick="equal()">=</button>
+        <button class="button crossButton" onclick="clearFunc()">AC</button>
+          <button class="button crossButton" onclick="back()">
+            <!--<i class="fa fa-close"></i>-->
+          <!--  <i class="fas fa-backspace fa-lg"></i>-->
+          Back 
+          </button>
+        
+      
+        
+        
+        </div>
+        
+      <div id="constants">
+        <a href="#" onclick="showConst()" id="link">Show Constants</a>
+        <div id="constBox">
+          <button class="button" onclick="but(6.62607004E-34)">h</button>
+          <button class="button" onclick="but(3.14159265)">π</button>
+          <button class="button" onclick="but(2.71828183)">e</button>
+          <button class="button" onclick="but(299792458)">c</button>
+          <button class="button" onclick="but(1.60217662E-19)">q</button>
+          <button class="button" onclick="but(9.109E-31)">m</button>
+         
+        </div>
+      </div>
+        
+      
+        
+        </main>
+        <footer>
+          <h3>Made with &hearts; by :-
+          Tiger</h3>
+        </footer>
+  
+    </body>
+  </html>
